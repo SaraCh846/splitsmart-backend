@@ -12,7 +12,7 @@ public class UserService {
 
     private final UserRepository userRepository; // UserService needs a UserRepository in order to access the database.
 
-    public UserService(UserRepository userRepository) { // Automaticcaly provide the repository object
+    public UserService(UserRepository userRepository) { // Automaticly provide the repository object
         this.userRepository = userRepository;
     }
 
